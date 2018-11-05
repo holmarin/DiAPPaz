@@ -1,0 +1,54 @@
+/* 
+    Created on : 23/09/2018, 11:50:58 AM
+    Author     : Holmes
+*/
+body{
+	font-size: 12px;
+}
+#Contenedor{
+	width: 200px;
+	margin: 50px auto;
+	background-color: #F3EDED;
+        border: 1px solid #ECE8E8;
+	height: 200px;
+	border-radius:8px;
+	padding: 20px 9px 20px 9px;
+}
+.Icon span{
+      background: #A8A6A6;
+      padding: 20px;
+      border-radius: 120px;
+}
+.Icon{
+     margin-top: 10px;
+     margin-bottom:10px; 
+     color: #FFF;
+     font-size: 50px;
+     text-align: center;
+}
+.opcioncontra{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 14px;
+}
+ 
+/**
+ * En las siguientes lineas
+ * se define el diseño adaptable, para que
+ * se muestre en los dispositivos móviles
+ */
+ 
+/******************************************/
+/***    DISEÑO PARA MOVILES 320        ****/
+/******************************************/
+@media only screen and (max-width:320px){
+#Contenedor{
+	width: 100%;
+	height: auto;
+	margin: 0px;
+}
+ 
+/******************************************/
+/***    DISEÑO PARA MOVILES 240        ****/
+/******************************************/
+}
